@@ -1,0 +1,34 @@
+{
+    "filename": "sample_portrait.jpg",
+    "dimensions": {
+        "width": 800,
+        "height": 600
+    },
+    "processing_time_sec": 0.0228,
+    "class_pixel_distribution": {
+        "Background": {
+            "pixel_count": 88095,
+            "percentage": 18.35
+        },
+        "Person": {
+            "pixel_count": 8175,
+            "percentage": 1.7
+        },
+        "Vegetation": {
+            "pixel_count": 207584,
+            "percentage": 43.25
+        },
+        "Sky": {
+            "pixel_count": 176146,
+            "percentage": 36.7
+        },
+        "Vehicle": {
+            "pixel_count": 0,
+            "percentage": 0.0
+        }
+    },
+    "output_files": {
+        "segmented_mask": "output\\sample_portrait_segmented.jpg",
+        "bokeh_comparison_montage": "output\\sample_portrait_comparison.jpg"
+    }
+}
